@@ -1,0 +1,51 @@
+Daily Report, March 17th of 2023
+
+Summary
+
+I will probably wrap up this week by watching tutorials and reading about Unit Testing and UI Testing. 
+
+From reading the apple documentation and researching the screen time APIs last night, I found that
+
+Setting downtime
+
+* Problem
+ According to this post, https://stackoverflow.com/questions/71925887/is-there-a-way-to-code-an-app-that-initiates-downtimes-on-ios, that probably won't be possible unless done by the screen time section of the apple default setting app. 
+
+* Solution
+Instead, we could block all apps and only allow essential apps like the Phone App (This is Google Family Link implementation, if I remember correctly)
+
+Adult Website Filter
+
+* Plan of Attack
+My Approach is to set web filters to limit adult websites using Family Control.
+
+On top of that, I will create a list view so users to add their custom list of websites to block, which should later come in handy when we import the legacy APIs.
+
+* Caveat
+It only works on Safari. Perhaps, using DNS filtering is necessary later on. Otherwise, we need ways to block child users from downloading other browsers.
+
+Incentives to use of Educational Apps
+
+* Problem
+
+I dare say that this feature might not be possible at all. For that reason, I will work on this as the last main feature.
+Monitoring usage of other apps is not allowed. According to a stack overflow post, an App called “Dataman Pro” tried but Apple took their app down at one point. Sandbox…
+
+* Solution
+This feature might need partnerships with the educational apps. We then can get information about how much time children users have spent on them. 
+
+Blurring Nudity
+
+* Problem
+Thankfully, this feature already exists by Apple as of iOS 15.2, where it monitors texts and blurs the images if nudity is detected. The tricky part is to enable it from our app, which I think will be very difficult, but hopefully not impossible. I could not find related information on the Apple development yet.
+
+* Solution
+For now, we should include this information in our tutorial. We should encourage parents to take advantage of this great feature. In the meantime, I will research more on this topic. 
+
+Additional Features that I will work on
+
+Adding category toggle switches (Adult, Dating, and so on) in the UI similar to the official Safe Surfer App.
+
+This project will start following more of Test Driven Development next week.
+
+We will have a custom view (for the custom blocklist) with MVVM.
