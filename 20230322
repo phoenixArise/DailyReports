@@ -1,0 +1,14 @@
+Daily Report of March 22nd
+
+Done:
+
+- Toggle Switches for each categories
+
+- Custom URL list view is complete and its logic is almost complete (I haven't figured out how to unbock the websites yet)
+
+- Research on Unit Test (for extensions): Custom Shield UI doesn't need testing yet because we are tweaking the given class much. But Activity Monitor probably needs unit testing.
+
+What I will work on:
+
+- Study more on Unit Testing
+- Unblocking websits
