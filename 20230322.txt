@@ -1,14 +1,38 @@
 Daily Report of March 22nd
 
-Done:
+Toggle Switches for each categories
+	- Complete	
+        Implemented Adult Filter. Now, adult category toggle works properly.
 
-- Toggle Switches for each categories
+	- Room for improvement
+        1. Adult Filter can also have custom list of websites on top of what's offered by Apple.
+        
+        Action for 1.
+            Enabling adult filter toggle shows a list of custom websites to block that sync with the toggle with option to show and hide the list optionally (when enabled)
+        
+        2. Toggle UIs can look better with consistent color for letters.
+        
+        Action for 2.
+            To be done, tomorrow.
 
-- Custom URL list view is complete and its logic is almost complete (I haven't figured out how to unbock the websites yet)
-
-- Research on Unit Test (for extensions): Custom Shield UI doesn't need testing yet because we are tweaking the given class much. But Activity Monitor probably needs unit testing.
-
-What I will work on:
-
-- Study more on Unit Testing
-- Unblocking websits
+Custom URL list view 
+	- Complete
+        Almost. It blocks most popular websites such as google, netflix, safesurfer.io, and so on.
+        
+	- Room for improvement
+        1. At the moment, there are cetain websites that are not blocked like Twitter and Reddit.
+    
+        Action for 1.
+            I have contacted Apple about it today. I'm waiting for a feedback from them
+            Although it doesn't block from the custom list, it still blocks from Family Activity Selection.
+ 
+Unit Test
+    - Complete
+        1. I have added a unit test for a function in Model class
+        
+    - Room for improvment
+        1. I think that in the test target, I will need to look into automation testing methods to open safari, enter websites and check if restricted properly or not.
+        
+        Action for 1.
+            Research on this topic is needed.
+            It is my design choice at the moment to focus testing on the main App target (not extensions, at least for now)
