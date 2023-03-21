@@ -1,38 +1,38 @@
 Daily Report of March 22nd
 
-Toggle Switches for each categories
-	- Complete	
-        Implemented Adult Filter. Now, adult category toggle works properly.
+Toggle Switches for each category
+    - Complete
+    Implemented Adult Filter. Now, the adult category toggle works.
 
-	- Room for improvement
-        1. Adult Filter can also have custom list of websites on top of what's offered by Apple.
-        
-        Action for 1.
-            Enabling adult filter toggle shows a list of custom websites to block that sync with the toggle with option to show and hide the list optionally (when enabled)
-        
-        2. Toggle UIs can look better with consistent color for letters.
-        
-        Action for 2.
-            To be done, tomorrow.
-
-Custom URL list view 
-	- Complete
-        Almost. It blocks most popular websites such as google, netflix, safesurfer.io, and so on.
-        
-	- Room for improvement
-        1. At the moment, there are cetain websites that are not blocked like Twitter and Reddit.
+    - Room for improvement
+    1. Adult Filter can also have a custom list of websites on top of what's offered by Apple.
+     
+    Action for 1.
+      Enabling the adult filter toggle shows a list of custom websites to block with options to show and hide the list (when enabled)
+     
+    2. Toggle UIs can look better with consistent colour for letters.
+     
+    Action for 2.
     
-        Action for 1.
-            I have contacted Apple about it today. I'm waiting for a feedback from them
-            Although it doesn't block from the custom list, it still blocks from Family Activity Selection.
+
+Custom URL list view
+    - Complete
+    Almost. It blocks most websites on the custom list.
+     
+    - Room for improvement
+    1. Certain websites like Twitter and Reddit are not blocked.
+   
+    Action for 1.
+      I have contacted Apple Support about it today. I'm waiting for feedback.
+      Although it doesn't block from the custom list, it still blocks from Family Activity Selection.
  
 Unit Test
-    - Complete
-        1. I have added a unit test for a function in Model class
-        
-    - Room for improvment
-        1. I think that in the test target, I will need to look into automation testing methods to open safari, enter websites and check if restricted properly or not.
-        
-        Action for 1.
-            Research on this topic is needed.
-            It is my design choice at the moment to focus testing on the main App target (not extensions, at least for now)
+  - Complete
+    1. I have added a unit test for a function in the Model class
+     
+  - Room for improvement
+    1. In the test target, I will look into automation testing methods to open safari, enter websites and check if they are restricted.
+     
+    Action for 1.
+      Research on this topic is needed.
+      It is my design choice at the moment to focus testing on the main App target (not extensions, at least for now)
