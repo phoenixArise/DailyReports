@@ -1,0 +1,26 @@
+Daily Report of March 23rd
+
+Toggle Switches for each category
+  - Complete
+    Adult Filter can also have a custom list of websites on top of what's offered by Apple.
+    Toggle UIs can look better with consistent colour for letters.
+  - Room to improve
+    Still needs to finish the backend for the adult website blocklist
+
+Custom URL list view
+  - Complete
+    I didn't find a solution yet after doing hours of research.
+  - Suggestion
+    "Allowed Websites" works flawlessly. Perhaps, we can gear toward that
+ 
+MVVM
+  - Currently, the project follows MVC. I will adapt MVVM tomorrow as we will get more views like AddANewWebsiteView .
+   
+Downtime
+  - I still haven't found a way to choose all applications from Family Activity Selection programmatically. I will do a lot more research on this topic.
+  - The best idea currently is to block all categories of apps.
+   
+Incentivising Encouraged Apps
+  Plan of Attack (Two Track)
+  - Traditional Approach (Monitor child's device usage)
+  - After some research, I think it might be a good idea for a child to request rewards.
