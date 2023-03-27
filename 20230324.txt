@@ -10,6 +10,8 @@ TestFlight
     - Give me the same errors. Contacted Apple Developer Support about it. Nothing to do but wait on this matter.
     - Perhaps, next week, I might just copy paste them onto a new project to see if that works.
        
+￼       ￼
+       
 Content Restriction
 	denies in App Purchases
 	blocks App Store apps by age, set to 12+ (more variations are possible)
