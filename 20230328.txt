@@ -1,0 +1,17 @@
+Daily Report of March 28th
+
+Device Usage Report
+        Complete
+            - Customized and able to pop up
+
+        Room to improve
+            - Design is not complete yet
+            - Not sure if we can share this info with others or let alone read them from the app
+
+TestFlight
+        I will try to migrate the project
+
+Fun Fact
+
+    A Harvard-Incubated StartUp
+            They have contacted me regarding the repo. The repo might start getting attention as we progress. Let me know if you want me to make the repo private soon.
