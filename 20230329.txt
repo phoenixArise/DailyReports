@@ -1,0 +1,12 @@
+Daily Report 29th Marh 2023
+
+Complete
+	- Scheduler (Blocks all app in the given time)
+	- send notifications at the start of using encouraged apps, but notification only gets sent when the app is closed
+	- UI looks a lot better and organize
+
+THings to work on
+	- Notification (will disable the shields with notification)
+	- Domains on the blocklist will be blocked (in sync with toggles) 
+	- Password Feature
+	- Subscription 
